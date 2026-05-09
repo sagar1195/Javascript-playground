@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Debounce Example</title>
+  </head>
+  <body>
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding: 20px;
+        justify-content: space-evenly;
+      "
+    >
+      <div>
+        <input type="text" id="search" placeholder="Type to search..." />
+        <div id="non-debounce"></div>
+      </div>
+      <div>
+        <input type="text" id="search2" placeholder="debounce search..." />
+        <div id="debounce"></div>
+      </div>
+    </div>
+
+    <script src="./debounce.js"></script>
+  </body>
+</html>
